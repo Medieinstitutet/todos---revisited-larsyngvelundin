@@ -25,4 +25,7 @@ Skapa en ny todo-lista. Men denna gång behöver ni använda den blockchain som 
 - Du kan ändra en todo till klar och tillbaka till inte klar
 - Du använder minste tre komponenter
 - Du använder konceptet tjänst när ni kommunicerar med er blockchain
+
+Kolla om axium föreläsningen
+
 - Du har en mycket god struktur i din kod och har försökt att refaktorera så mycket som möjligt
