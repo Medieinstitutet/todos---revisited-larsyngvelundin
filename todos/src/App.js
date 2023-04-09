@@ -26,11 +26,14 @@ function App() {
         connected={connected}
         setConnected={setConnected}
       />
-      <TodoList
-        contract={contract}
-        connectedAccount={connectedAccount}
-        connected={connected}
-      />
+      {connected ?
+        (<TodoList
+          contract={contract}
+          connectedAccount={connectedAccount}
+          connected={connected}
+        />) : <></>
+      }
+
     </div>
   );
 }
